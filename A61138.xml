@@ -1,0 +1,759 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The Christian doctrine: or, A short catechism Briefly shewing how to become a Christian: how to continue a Christian. Divided into ten heads, for the ease of memory. Approved by sundry elders of the baptized churches.</title>
+            <author>J. S.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1678</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 22 KB of XML-encoded text transcribed from 9 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2011-12">2011-12 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A61138</idno>
+            <idno type="STC">Wing S49AA</idno>
+            <idno type="STC">ESTC R213986</idno>
+            <idno type="EEBO-CITATION">99826228</idno>
+            <idno type="PROQUEST">99826228</idno>
+            <idno type="VID">30625</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A61138)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 30625)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 1800:8)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>The Christian doctrine: or, A short catechism Briefly shewing how to become a Christian: how to continue a Christian. Divided into ten heads, for the ease of memory. Approved by sundry elders of the baptized churches.</title>
+                  <author>J. S.</author>
+               </titleStmt>
+               <extent>16 p.   </extent>
+               <publicationStmt>
+                  <publisher>printed for Francis Smith, at the Elephant and Castle in Cornhil, near the Royal-Exchange,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1678.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Preface signed: J.S.</note>
+                  <note>Identifed as Wing S36 on UMI microfilm "Early English books, 1641-1700.".</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Catechisms, English --  Early works to 1800.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2010-05</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2010-06</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2010-09</date>
+            <label>Mona Logarbo</label>Sampled and proofread</change>
+         <change>
+            <date>2010-09</date>
+            <label>Mona Logarbo</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2011-06</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:30625:1" rendition="simple:additions"/>
+            <p>THE Chriſtian Doctrine: OR, A Short CATECHISM.</p>
+            <p>BRIEFLY Shewing how to become a Chri<g ref="char:EOLhyphen"/>ſtian: How to continue a Chriſtian.</p>
+            <p>Divided into ten Heads, for the eaſe of Memory.</p>
+            <p>Approved by ſundry Elders of the Baptized Churches.</p>
+            <q>
+               <bibl>1 Pet. 3.15.</bibl>
+               <p>Be ready always to give an anſwer to every man that asketh you a reaſon of the hope that is in you, with meekneſs and fear.</p>
+            </q>
+            <p>
+               <hi>LONDON,</hi> Printed for <hi>Francis Smith,</hi> at the <hi>Elephant</hi> and <hi>Caſtle</hi> in <hi>Cornhil,</hi> near the <hi>Royal-Exchange,</hi> 1678.</p>
+         </div>
+         <div type="to_the_reader">
+            <pb facs="tcp:30625:2"/>
+            <pb facs="tcp:30625:2"/>
+            <head>To thoſe that deſire Inſtruction.</head>
+            <opener>
+               <salute>READER</salute>
+            </opener>
+            <p>Out of pity to Mankind, conſidering how many die in their Youth, and without Knowledge, I have with much brevity gathered this ſmall Work, for the Inſtruction of Youth, that they might learn to remember their Creator. Mind it: If thou get Know<g ref="char:EOLhyphen"/>ledge, praiſe God, and pray to him that I may always obey him.</p>
+            <closer>
+               <signed>Thine in the Lord, <hi>J. S.</hi>
+               </signed>
+            </closer>
+         </div>
+         <div type="list_of_topics">
+            <pb facs="tcp:30625:3"/>
+            <head>What the ten Heads treat of.</head>
+            <list>
+               <item>1. OF Man's ſtate by Nature.</item>
+               <item>2. Of Man's ſtate by Grace.</item>
+               <item>3. Of the Principles of the Chriſtian Do<g ref="char:EOLhyphen"/>ctrine.</item>
+               <item>4. Of the Eternal Godhead.</item>
+               <item>5. Of every ones Duty.</item>
+               <item>6. Of the Holy Ordinances.</item>
+               <item>7. Of the Chriſtian Warfare.</item>
+               <item>8. Of the Church, and Church-Miniſters.</item>
+               <item>9. Of Church-Power.</item>
+               <item>10. Of the general Love of God to Man<g ref="char:EOLhyphen"/>kind.</item>
+            </list>
+         </div>
+      </front>
+      <body>
+         <div type="catechism">
+            <pb n="5" facs="tcp:30625:3"/>
+            <head>THE Chriſtian Doctrine.</head>
+            <p>
+               <label>Queſt.</label>
+               <lb/>
+               <hi>WHat art thou by Religion?</hi>
+            </p>
+            <p>
+               <label>Anſw.</label> A Chriſtian,<note n="(a)" place="parend">
+                  <hi>Act.</hi> 11.26.</note>
+            </p>
+            <p>
+               <label>Q.</label> 
+               <hi>What is a Chriſtian?</hi>
+            </p>
+            <p>
+               <label>A.</label> One that truly believes in the Lord Jeſus Chriſt, and<note n="(b)" place="parend">
+                  <hi>Joh.</hi> 8.31.</note> continues ſtedfaſtly in his Doctrine,</p>
+            <p>
+               <label>Q.</label> 
+               <hi>How cameſt thou to be a Chriſtian?</hi>
+            </p>
+            <p>
+               <label>A.</label> I did repent me of my ſins paſt,<note n="(c)" place="parend">
+                  <hi>Act.</hi> 2.38.</note> believe in the Lord Jeſus Chriſt, and was baptized with Water,</p>
+            <p>
+               <label>Q.</label> 
+               <hi>What didſt thou become thereby?</hi>
+            </p>
+            <p>
+               <label>A.</label> A Member of Chriſt and his Church,<note n="(d)" place="parend">1 <hi>Cor.</hi> 11.27.</note> a Child of God,<note n="(e)" place="parend">
+                  <hi>Gal.</hi> 3.26, 27, 28.</note> and an Heir of the Kingdom of Heaven,</p>
+            <div type="part">
+               <head>Of Man's ſtate by Nature.</head>
+               <p>
+                  <label>Q.</label> 
+                  <hi>In what ſtate are all unconverted Men?</hi>
+               </p>
+               <p>
+                  <label>A.</label> Strangers to God, without Chriſt, ha<g ref="char:EOLhyphen"/>ving no Hope, dead<note n="(f)" place="parend">
+                     <hi>Eph.</hi> 2.1, 3, 12.</note> in Sins and Treſpaſſes,
+<pb n="6" facs="tcp:30625:4"/>by Nature Children of Wrath,<note n="(f)" place="parend">
+                     <hi>Eph.</hi> 2.1, 3, 12.</note>
+               </p>
+               <p>
+                  <label>Q.</label> 
+                  <hi>What are the Wages of Sin?</hi>
+               </p>
+               <p>
+                  <label>A.</label> Death,<note n="(g)" place="parend">
+                     <hi>Rom.</hi> 6.23.</note>
+               </p>
+               <p>
+                  <label>Q.</label> 
+                  <hi>How doth God manifeſt his Wrath in this Life?</hi>
+               </p>
+               <p>
+                  <label>A.</label> By ſickneſs in the<note n="(h)" place="parend">
+                     <hi>Lev.</hi> 26.16.</note> Body, loſſes in the<note n="(i)" place="parend">
+                     <hi>Amos</hi> 4.10.</note> Subſtance, and<note n="(k)" place="parend">
+                     <hi>Lev.</hi> 26.16.</note> terror in the Conſcience.</p>
+               <p>
+                  <label>Q.</label> 
+                  <hi>How in the World to come?</hi>
+               </p>
+               <p>
+                  <label>A.</label> By everlaſting deſtruction<note n="(l)" place="parend">1 <hi>Theſſ.</hi> 1.9. <hi>Mat.</hi> 8.12.</note> in Hell fire cauſing weeping, walling, and gnaſhing of Teeth,</p>
+            </div>
+            <div type="part">
+               <head>Of Man's ſtate by Grace.</head>
+               <p>
+                  <hi>Q.</hi> How may Men be delivered from Wrath to come, and obtain Salvation?</p>
+               <p>A. <hi>Only</hi>
+                  <note n="(m)" place="parend">
+                     <hi>Act.</hi> 4.12.</note> 
+                  <hi>by Jeſus Chriſt,</hi>
+               </p>
+               <p>
+                  <hi>Q.</hi> What hath Chriſt done for Mankind?</p>
+               <p>A. <hi>Died for every Man,</hi>
+                  <note n="(n)" place="parend">
+                     <hi>Heb.</hi> 2.9.</note>
+               </p>
+               <p>
+                  <hi>Q</hi> How may one be a Partaker of Chriſt and his Benefits?</p>
+               <p>A. <hi>By a true Faith in him, and Obedience to him,</hi>
+                  <note place="parend">
+                     <hi>Joh.</hi> 3.16, 17.</note>
+               </p>
+               <p>
+                  <hi>Q.</hi> How cometh Faith?</p>
+               <p>A. <hi>By hearing</hi>
+                  <note n="(p)" place="parend">
+                     <hi>Rom.</hi> 10.17.</note> 
+                  <hi>the Word of God,</hi>
+               </p>
+               <p>
+                  <hi>Q.</hi> What Faith moſt avails?</p>
+               <p>A. <hi>That which</hi>
+                  <note n="(q)" place="parend">
+                     <hi>Gal.</hi> 5.6.</note> 
+                  <hi>works by Love,</hi>
+               </p>
+               <p>
+                  <pb n="7" facs="tcp:30625:4"/>
+                  <hi>Q.</hi> How is our Love to God made manifeſt?</p>
+               <p>A. <hi>By keeping his</hi>
+                  <note n="(r)" place="parend">1 <hi>Joh.</hi> 5.3.</note> 
+                  <hi>Commandments,</hi>
+               </p>
+            </div>
+            <div type="part">
+               <head>Of the Principles of the Chriſtian Doctrine.</head>
+               <p>
+                  <label>Q.</label> 
+                  <hi>What are the Foundation-Principles of the Chriſtian Doctrine?</hi>
+               </p>
+               <p>
+                  <label>A.</label> Theſe ſix. 1. Repentance from dead Works. 2. Faith towards God. 3. The Do<g ref="char:EOLhyphen"/>ctrine of Baptiſms. 4. Laying on of Hands. 5. Reſurrection of the Dead. 6. The Eternal<note n="(s)" place="parend">
+                     <hi>Heb.</hi> 6.1, 2.</note> Judgment,</p>
+               <p>
+                  <label>Q.</label> 
+                  <hi>What are dead Works?</hi>
+               </p>
+               <p>
+                  <label>A.</label> Sins and Treſpaſſes.</p>
+               <p>
+                  <label>Q.</label> 
+                  <hi>What is Faith in God the Father?</hi>
+               </p>
+               <p>
+                  <label>A.</label> A ſtedfaſt belief that he is my merciful and<note n="(t)" place="parend">
+                     <hi>Mat.</hi> 6.9.</note> loving Father,</p>
+               <p>
+                  <label>Q.</label> 
+                  <hi>What is Faith in the Son?</hi>
+               </p>
+               <p>
+                  <label>A.</label> A ſure belief that he died for my ſins,<note n="(u)" place="parend">1 <hi>Cor.</hi> 15.4.</note> makes interceſſion<note n="(w)" place="parend">Rom. 8.34.</note> for me, will ſave me, and his promiſes of Love and Mercy are made to me, if I continue<note n="(x)" place="parend">2 <hi>Pet.</hi> 1.4. <hi>Joh.</hi> 8.31.</note> in his Word,</p>
+               <p>
+                  <label>Q.</label> 
+                  <hi>What is Faith in the Holy Ghoſt?</hi>
+               </p>
+               <p>
+                  <label>A.</label> A ſure belief that he will<note n="(y)" place="parend">1 <hi>Pet.</hi> 1.2. Joh. 16.13.</note> ſanctifie me, comfort me, and guide me into all Truth,</p>
+               <p>
+                  <label>Q.</label> 
+                  <hi>What have they that believe in God rightly?</hi>
+               </p>
+               <p>
+                  <pb n="8" facs="tcp:30625:5"/>
+                  <label>A.</label> They are juſtified,<note n="(z)" place="parend">
+                     <hi>Rom.</hi> 1.5.</note> and have peace with God,</p>
+               <p>
+                  <label>Q.</label> 
+                  <hi>What is Juſtification?</hi>
+               </p>
+               <p>
+                  <label>A.</label> A being freed from<note n="(a)" place="parend">
+                     <hi>Rom.</hi> 6.7. <hi>Rom.</hi> 3.22.</note> ſins paſt, and a be<g ref="char:EOLhyphen"/>ing accepted as righteous before God,</p>
+               <p>
+                  <hi>Q. What is Sanctification?</hi>
+               </p>
+               <p>A. A being<note n="(b)" place="parend">
+                     <hi>Heb.</hi> 9.14. <hi>Tit.</hi> 2.14.</note> purged from the corruption of Nature, and to be indued inwardly with Righteouſneſs,</p>
+               <p>
+                  <hi>Q. What Graces do uſually appear in a ſancti<g ref="char:EOLhyphen"/>fied Man?</hi>
+               </p>
+               <p>A. A hatred of Sin, and<note n="(c)" place="parend">1 <hi>Pet.</hi> 1.2. <hi>Pſal.</hi> 119.10.</note> a willing obedience to God,</p>
+               <p>
+                  <hi>Q. What Baptiſms are there?</hi>
+               </p>
+               <p>A. The Baptiſm of<note n="(d)" place="parend">
+                     <hi>Act.</hi> 9.38. <hi>Mat.</hi> 3.11.</note> Water, and the Bap<g ref="char:EOLhyphen"/>tiſm of the Spirit,</p>
+               <p>
+                  <hi>Q. Who can baptize with the Holy Ghoſt?</hi>
+               </p>
+               <p>A. Only<note n="(e)" place="parend">
+                     <hi>Mat.</hi> 3.11.</note> Jeſus Chriſt,</p>
+               <p>
+                  <hi>Q. What is Baptiſm with Water?</hi>
+               </p>
+               <p>A. A being dipt in Water, in the Name of the Father, and of the Son, and of the Holy Ghoſt.</p>
+               <p>
+                  <hi>Q. Why muſt Perſons be ſo born of Water?</hi>
+               </p>
+               <p>A. That they may enter into the Kingdom<note n="(f)" place="parend">
+                     <hi>Joh</hi> 3.5. <hi>Act.</hi> 2.38. <hi>Act.</hi> 22.16.</note> of God, and obtain forgiveneſs of ſins,</p>
+               <p>
+                  <hi>Q. What is laying on of Hands</hi>
+               </p>
+               <p>A. A laying on of hands<note n="(g)" place="parend">
+                     <hi>Act.</hi> 8.15, 16. <hi>Act.</hi> 19.6.</note> by the Elders of the Church, with Prayer, that they may receive the Holy Ghoſt,</p>
+               <p>
+                  <pb n="9" facs="tcp:30625:5"/>
+                  <hi>Q. What general example is there for the laying on of Hands on every Member?</hi>
+               </p>
+               <p>A. The example of the Church<note n="(h)" place="parend">
+                     <hi>Act.</hi> 8.14 15, 16.</note> in <hi>Sama<g ref="char:EOLhyphen"/>ria,</hi> and the Brethen at<note n="(i)" place="parend">
+                     <hi>Act.</hi> 19.6.</note> 
+                  <hi>Epheſus,</hi>
+               </p>
+               <p>
+                  <hi>Q Who muſt be raiſed again in the Reſurrection?</hi>
+               </p>
+               <p>A. All that are in the Graves,<note n="(k)" place="parend">
+                     <hi>Joh.</hi> 5.28.</note>
+               </p>
+               <p>
+                  <hi>Q. Who muſt come to the laſt Judgment?</hi>
+               </p>
+               <p>A. All Mankind,<note n="(l)" place="parend">
+                     <hi>Rev.</hi> 20.12, 13.</note> both ſmall and great,</p>
+            </div>
+            <div type="part">
+               <head>Of the Eternal Godhead.</head>
+               <p>
+                  <hi>Q. What is God declared to be?</hi>
+               </p>
+               <p>A. A Spirit <hi>(m)</hi> Almighty, and moſt glorious,<note place="parend">
+                     <hi>Joh.</hi> 4.24. <hi>Gen.</hi> 17.1.</note>
+               </p>
+               <p>
+                  <hi>Q. What are his Attributes?</hi>
+               </p>
+               <p>A. He is moſt<note n="(n)" place="parend">1 <hi>Tim.</hi> 1.17. <hi>Pſal.</hi> 139.7.</note> Wiſe, Holy, Eternal, and Incomprehenſible, to the 13th verſe.</p>
+               <p>
+                  <hi>Q. How is this one God diſtinguiſhed?</hi>
+               </p>
+               <p>A. Into the Father who begat the Son, into the Son who is begotten, into the Holy Ghoſt who proceedeth<note n="(o)" place="parend">1 <hi>Joh.</hi> 5.7.</note> from the Father and the Son,</p>
+               <p>
+                  <hi>Q. What is declared of the Father?</hi>
+               </p>
+               <p>A. That he created<note n="(p)" place="parend">
+                     <hi>Gen.</hi> 1.1. <hi>Jon.</hi> 1.9.</note> the Heaven, the Earth, and the Sea, and all things therein,</p>
+               <p>
+                  <hi>Q. What is declared of the Son?</hi>
+               </p>
+               <p>
+                  <pb n="10" facs="tcp:30625:6"/>
+A. That he redeemed us<note n="(q)" place="parend">
+                     <hi>Rev.</hi> 5.9. <hi>Col.</hi> 1.14.</note> by his Blood, makes interceſſion to the<note n="(r)" place="parend">
+                     <hi>Rom.</hi> 8.34. <hi>Heb.</hi> 7.25.</note> Father, ſhall come to<note n="(s)" place="parend">2 <hi>Tim.</hi> 4.1.</note> judge the Quick and Dead,</p>
+               <p>
+                  <hi>Q. What is declared of the Holy Ghoſt?</hi>
+               </p>
+               <p>A. That he convinces the<note n="(t)" place="parend">
+                     <hi>Joh.</hi> 16.7, 8, 9, 13. ver. 1 <hi>Pet.</hi> 1.2.</note> World of Sin, comforts and ſanctifies God's People, and leads them into all Truth,</p>
+               <p>
+                  <hi>Q. What doth the Son declare himſelf to be?</hi>
+               </p>
+               <p>A. The Light<note n="(u)" place="parend">
+                     <hi>Joh.</hi> 8.12.</note> of the World, the<note n="(w)" place="parend">
+                     <hi>Joh.</hi> 13 6.</note> Life, and the<note n="(x)" place="parend">
+                     <hi>Joh.</hi> 6.35.</note> Bread of Life,</p>
+               <p>
+                  <hi>Q. What are the Sons eſpecial Offices?</hi>
+               </p>
+               <p>A. A<note n="(y)" place="parend">
+                     <hi>Mat.</hi> 1.21. 2 <hi>Pet.</hi> 3.18.</note> Saviour, a<note n="(z)" place="parend">
+                     <hi>Act.</hi> 3.22.</note> Prophet, a<note n="(a)" place="parend">
+                     <hi>Heb.</hi> 3.1.</note> Prieſt, an<note n="(b)" place="parend">1 <hi>Joh.</hi> 2.1.</note> Advocate, a<note n="(c)" place="parend">
+                     <hi>Mat.</hi> 25.34.</note> King, and a<note n="(d)" place="parend">2 <hi>Tim.</hi> 4.1.</note> Judge,</p>
+            </div>
+            <div type="part">
+               <head>Of every ones Duty.</head>
+               <p>
+                  <hi>Q. What ought every one to do?</hi>
+               </p>
+               <p>A. To become Chriſtians?</p>
+               <p>
+                  <hi>Q. What all our Life after?</hi>
+               </p>
+               <p>A. To keep God's Commandments,<note n="(e)" place="parend">
+                     <hi>Mat.</hi> 19.17. <hi>Rev.</hi> 22.14.</note>
+               </p>
+               <p>
+                  <hi>Q. What do the Commandments chiefly contain?</hi>
+               </p>
+               <p>A. Our Duty to God, and our Duty to our Neighbour, or Men.</p>
+               <p>
+                  <label>Q.</label> 
+                  <hi>What is our duty to God.</hi>
+               </p>
+               <p>
+                  <pb n="11" facs="tcp:30625:6"/>
+                  <label>A.</label> To believe<note n="(f)" place="parend">
+                     <hi>Acts</hi> 16.31.</note> in him, to fear<note n="(g)" place="parend">
+                     <hi>Luk.</hi> 12.5.</note> him, and to love<note n="(h)" place="parend">
+                     <hi>Mat.</hi> 22.37.</note> him with all our heart, with all our Soul, Mind and Strength, to<note n="(i)" place="parend">
+                     <hi>Mat.</hi> 4.10.</note> wor<g ref="char:EOLhyphen"/>ſhip him, to give him thanks, to<note n="(k)" place="parend">
+                     <hi>Joh.</hi> 5.23.</note> honour him and truly to<note n="(l)" place="parend">
+                     <hi>Mat.</hi> 4.<gap reason="illegible" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>0.</note> ſerve him.</p>
+               <p>
+                  <label>Q.</label> 
+                  <hi>What is our duty to Men?</hi>
+               </p>
+               <p>
+                  <label>A.</label> To do<note n="(m)" place="parend">
+                     <hi>Mat.</hi> 7.12.</note> to all Men, as we would they ſhould do to us, to love<note n="(n)" place="parend">
+                     <hi>Mat</hi> 22.39.</note> our Neighbour as our ſelves, to honour<note n="(o)" place="parend">
+                     <hi>Mat.</hi> 19.19.</note> Parents, to honour<note n="(p)" place="parend">1 <hi>Pet.</hi> 2.17.</note> the King and Magiſtrates, and to live juſtly and<note n="(q)" place="parend">1 <hi>Theſſ.</hi> 4.11, 12.</note> honeſtly.</p>
+               <p>
+                  <label>Q.</label> 
+                  <hi>What doth the Grace of God teach us?</hi>
+               </p>
+               <p>
+                  <label>A.</label> To live ſoberly<note n="(r)" place="parend">
+                     <hi>Tit</hi> 2.12.</note>, righteouſly, and godly.</p>
+               <p>
+                  <label>Q.</label> 
+                  <hi>What are the Duties which abounding make a fruitful Chriſtian?</hi>
+               </p>
+               <p>
+                  <label>A.</label> Theſe eight, <hi>(s)</hi> Faith, Vertue, Knowledg, Temperance, Patience, Godlineſs, Brotherly<g ref="char:EOLhyphen"/>kindneſs, Charity,<note place="parend">2 <hi>Pet.</hi> 1.5, 6, 7.</note>
+               </p>
+               <p>
+                  <label>Q.</label> 
+                  <hi>What meanes are to be uſed for the further ſtrengthing our Faith?</hi>
+               </p>
+               <p>
+                  <label>A.</label> Hearing and reading<note n="(t)" place="parend">
+                     <hi>Rom.</hi> 10.17. <hi>Pſal.</hi> 1.2. 1 <hi>Theſſ.</hi> 5.17.</note> God's Word, Me<g ref="char:EOLhyphen"/>ditation, Prayer, and uſing the<note n="(u)" place="parend">1 <hi>Cor.</hi> 11.2.</note> Ordinances</p>
+               <p>
+                  <label>Q</label> 
+                  <hi>In whoſe name ought we to pray?</hi>
+               </p>
+               <p>
+                  <label>A.</label> In the name of<note n="(w)" place="parend">
+                     <hi>Joh.</hi> 16.23, 24.</note> Jeſus Chriſt.</p>
+               <p>
+                  <label>Q.</label> 
+                  <hi>What form of Prayer hath the Lord left us?</hi>
+               </p>
+               <p>
+                  <pb n="12" facs="tcp:30625:7"/>
+                  <label>A.</label> The Lord's Prayer, and after that manner he direct<note n="(x)" place="parend">
+                     <hi>Mat.</hi> 6.9.</note> us to pray,</p>
+               <p>
+                  <label>Q.</label> 
+                  <hi>What may ſometimes be joyned with Prayer?</hi>
+               </p>
+               <p>
+                  <label>A</label> Faſting,<note n="(y)" place="parend">
+                     <hi>Mat.</hi> 6.17.</note>
+               </p>
+               <p>
+                  <label>Q.</label> 
+                  <hi>Whom doth God give Grace unto?</hi>
+               </p>
+               <p>
+                  <label>A.</label> The humble,<note n="(z)" place="parend">
+                     <hi>James</hi> 4.6.</note>
+               </p>
+            </div>
+            <div type="part">
+               <head>Of the Holy Ordinances.</head>
+               <p>
+                  <label>Q.</label> 
+                  <hi>What holy Ordinances are there more?</hi>
+               </p>
+               <p>
+                  <label>A.</label> The Lord's Supper, anointing with Oil.</p>
+               <p>
+                  <label>Q.</label> 
+                  <hi>Wherefore was the Lord's Supper ordained?</hi>
+               </p>
+               <p>
+                  <label>A.</label> For the continual remembrance of the Lord's Death,<note n="(a)" place="parend">
+                     <hi>Luk.</hi> 22.19. 1 <hi>Cor.</hi> 11.24, 25.</note> and the benefits we receive thereby.</p>
+               <p>
+                  <label>Q.</label> 
+                  <hi>What are the Creatures to be received in that Supper?</hi>
+               </p>
+               <p>
+                  <label>A.</label> Bread and Wine.</p>
+               <p>
+                  <label>Q.</label> 
+                  <hi>How do they cauſe us to remember his Death?</hi>
+               </p>
+               <p>
+                  <label>A.</label> Thus, that as the Bread is broken, and the Wine poured out, ſo was the Lord's Body bro<g ref="char:EOLhyphen"/>ken for us,<note n="(b)" place="parend">1 <hi>Cor.</hi> 11.24, 25, 26.</note> and his Blood ſhed for our Sins,</p>
+               <p>
+                  <label>Q.</label> 
+                  <hi>When did the Lord celebrate this Ordinance?</hi>
+               </p>
+               <p>
+                  <label>A.</label> At or after<note n="(c)" place="parend">
+                     <hi>Mat.</hi> 26.16. 1 <hi>Cor.</hi> 11.15.</note> Supper.</p>
+               <p>
+                  <label>Q.</label> 
+                  <hi>What Judgments have befallen unworthy Re<g ref="char:EOLhyphen"/>ceivers?</hi>
+               </p>
+               <p>
+                  <label>A.</label> Weakneſs,<note n="(d)" place="parend">1 <hi>Cor.</hi> 11.28, 29, 30.</note> ſickneſs, death, wherefore every Receiver is to examine himſelf.</p>
+               <p>
+                  <pb n="13" facs="tcp:30625:7"/>
+                  <label>Q.</label> 
+                  <hi>What did the Lord after that Supper?</hi>
+               </p>
+               <p>
+                  <label>A.</label> Waſh his<note n="(e)" place="parend">
+                     <hi>Joh.</hi> 13.5.</note> his Diſciples Feet himſelf.</p>
+               <p>
+                  <label>Q.</label> 
+                  <hi>Who may be anointed with Oil?</hi>
+               </p>
+               <p>
+                  <label>A.</label> The ſick.</p>
+               <p>
+                  <label>Q.</label> 
+                  <hi>Who may anoint them?</hi>
+               </p>
+               <p>
+                  <label>A.</label> The Elders<note n="(f)" place="parend">
+                     <hi>Jam.</hi> 5.14.</note> of the Church.</p>
+               <p>
+                  <label>Q.</label> 
+                  <hi>Wherefore?</hi>
+               </p>
+               <p>
+                  <label>A.</label> That the Lord may raiſe<note n="(g)" place="parend">
+                     <hi>Jam.</hi> 5.15.</note> them up, and forgive their ſins,</p>
+            </div>
+            <div type="part">
+               <head>Of the Chriſtian Warfare.</head>
+               <p>
+                  <label>Q.</label> 
+                  <hi>What enemies do Godly Chriſtians find?</hi>
+               </p>
+               <p>
+                  <label>A.</label> Theſe three, the World, the Fleſh, and the Devil.</p>
+               <p>
+                  <label>Q.</label> 
+                  <hi>What may they find from each of them?</hi>
+               </p>
+               <p>
+                  <label>A.</label> Temptation<note n="(h)" place="parend">
+                     <hi>Mat.</hi> 4.3, 4, 5, 6. <hi>Jam.</hi> 1.14. <hi>Joh.</hi> 16.33. <hi>Rev.</hi> 2.10.</note> and Tribulation.</p>
+               <p>
+                  <label>Q.</label> 
+                  <hi>How doth the Devil appear in his Temptati<g ref="char:EOLhyphen"/>ons?</hi>
+               </p>
+               <p>
+                  <label>A.</label> Sometimes with ſubtil wiles,<note n="(i)" place="parend">
+                     <hi>Epheſ.</hi> 6.11, 16.</note> and ſome<g ref="char:EOLhyphen"/>tmes with fiery darts,</p>
+               <p>
+                  <label>Q.</label> 
+                  <hi>What ought a Chriſtian do to withſtand?</hi>
+               </p>
+               <p>
+                  <label>A.</label> Put on the whole<note n="(k)" place="parend">
+                     <hi>Epheſ.</hi> 6.11, to <hi>verſ.</hi> 19.</note> Armour of God.</p>
+               <p>
+                  <label>Q.</label> 
+                  <hi>What if a Chriſtian be in Temptation over<g ref="char:EOLhyphen"/>come, and through Weakneſs fall?</hi>
+               </p>
+               <p>
+                  <label>A.</label> He muſt Repent afreſh<note n="(l)" place="parend">
+                     <hi>Rev.</hi> 2.5. <hi>Rev.</hi> 3.3. 2 <hi>Cor.</hi> 7.10.</note> with Godly
+<pb n="14" facs="tcp:30625:8"/>Sorrow.</p>
+               <p>
+                  <label>Q.</label> 
+                  <hi>What is Godly Sorrow?</hi>
+               </p>
+               <p>
+                  <label>A.</label> A bitter<note n="(m)" place="parend">
+                     <hi>Zech.</hi> 10.12. <hi>Mat.</hi> 26.75.</note> ſorrow that we have offended a loving God.</p>
+            </div>
+            <div type="part">
+               <head>Of the Church, and Church-Miniſters.</head>
+               <p>
+                  <label>Q.</label> 
+                  <hi>What are the Perſons that walk according to the Word of God?</hi>
+               </p>
+               <p>
+                  <label>A.</label> The Church.</p>
+               <p>
+                  <label>Q.</label> 
+                  <hi>What doth the Scripture declare the Church to be?</hi>
+               </p>
+               <p>
+                  <label>A.</label> Saints<note n="(n)" place="parend">
+                     <hi>Rom.</hi> 1.7. 1 <hi>Pet.</hi> 2.9.</note>, the choſen generation<note n="(o)" place="parend">
+                     <hi>Eph.</hi> 2.19.</note>, the houſhold of God.</p>
+               <p>
+                  <label>Q.</label> 
+                  <hi>What may the Church do to make known the Goſpel to the World?</hi>
+               </p>
+               <p>
+                  <label>A.</label> Send out faithful<note n="(p)" place="parend">
+                     <hi>Act.</hi> 13.3. 2 <hi>Cor.</hi> 8.23.</note> Men to teach as their Meſſengers.</p>
+               <p>
+                  <label>Q.</label> 
+                  <hi>What Miniſters did the Lord ſet in the Church for taking care of them beſides the Apoſtles?</hi>
+               </p>
+               <p>
+                  <label>A.</label> Elders<note n="(q)" place="parend">
+                     <hi>Act.</hi> 20.17, 28. <hi>Tit.</hi> 1, 5.</note> and<note n="(r)" place="parend">
+                     <hi>Act.</hi> 6.2, 3. 1 <hi>Tim.</hi> 3.8, 12.</note> Deacons.</p>
+               <p>
+                  <label>Q.</label> 
+                  <hi>What is the duty of an Elder or Biſhop?</hi>
+               </p>
+               <p>
+                  <label>A.</label> To watch over the Flock<note n="(s)" place="parend">
+                     <hi>Act.</hi> 20.28, 31. 1 <hi>Tim</hi> 4.1, 2.</note>, to Preach, exhort, rebuke with all long-ſuffering and Do<g ref="char:EOLhyphen"/>ctrine.</p>
+               <p>
+                  <label>Q.</label> 
+                  <hi>How ought he to be qualified?</hi>
+               </p>
+               <p>
+                  <label>A.</label> He muſt be blameleſs, given to Hoſpitality, apt to teach, Holy, Juſt, Temperate, ruling<note n="(t)" place="parend">1 <hi>Tim.</hi> 3.1, to 8. <hi>Tit.</hi> 1.7, 8, 9.</note>
+                  <pb n="15" facs="tcp:30625:8"/>his own houſe well, and of good report of them that are without.</p>
+               <p>
+                  <label>Q.</label> 
+                  <hi>What is the Duty of a Deacon?</hi>
+               </p>
+               <p>
+                  <label>A.</label> To ſerve at the Lords Table,<note n="(u)" place="parend">
+                     <hi>Act.</hi> 6.1, 2, 3, 4.</note> and ad<g ref="char:EOLhyphen"/>miniſter to the Poor.</p>
+               <p>
+                  <label>Q.</label> 
+                  <hi>How ought he to be qualified?</hi>
+               </p>
+               <p>
+                  <label>A.</label> He muſt be grave<note n="(w)" place="parend">1 <hi>Tim.</hi> 3.8, 9, 12.</note>, holding the myſtery of the Faith in a pure Conſcience, one that rules his own Houſe well.</p>
+            </div>
+            <div type="part">
+               <head>Of Church-Power.</head>
+               <p>
+                  <label>Q.</label> 
+                  <hi>What is to be uſed to carnal or careleſs Members?</hi>
+               </p>
+               <p>
+                  <label>A.</label> Warning and<note n="(x)" place="parend">1 <hi>Theſſ.</hi> 5.14. 2 <hi>Theſſ.</hi> 3.10.</note> Exhortation.</p>
+               <p>
+                  <label>Q.</label> 
+                  <hi>What is to be done to ſuch Members as walk diſorderly, idly, or as buſibodies?</hi>
+               </p>
+               <p>
+                  <label>A.</label> They ought to be withdrawn<note n="(y)" place="parend">2 <hi>Theſſ.</hi> 3.6.14.</note> from.</p>
+               <p>
+                  <label>Q.</label> 
+                  <hi>How are they to be accounted, the time that they are withdrawn from?</hi>
+               </p>
+               <p>
+                  <label>A.</label> Not as Enemies<note n="(z)" place="parend">2 <hi>Theſſ.</hi> 3.15.</note>, but to be admoniſhed as Brethren.</p>
+               <p>
+                  <label>Q.</label> 
+                  <hi>What if they then neglect to hear the Churches admonition to repentance?</hi>
+               </p>
+               <p>
+                  <label>A.</label> They may let them be unto them<note n="(a)" place="parend">
+                     <hi>Mat.</hi> 18.17.</note> as Heathen Men and Publicans.</p>
+               <p>
+                  <label>Q.</label> 
+                  <hi>What was done to ſuch as became heinous Sin<g ref="char:EOLhyphen"/>ners, Hereticks ſuch as made ſhipwrack of Faith and a good Conſcience?</hi>
+               </p>
+               <p>
+                  <pb n="16" facs="tcp:30625:9"/>
+                  <label>A.</label> They were delivered<note n="(b)" place="parend">1 <hi>Cor.</hi> 5.4, 5. 1 <hi>Tim.</hi> 1.19, 20. <hi>Tit.</hi> 3.10. 2 <hi>Tim.</hi> 2.17, 18.</note> to Satan.</p>
+            </div>
+            <div type="part">
+               <head>Of the general love of God to mankind.</head>
+               <p>
+                  <label>Q.</label> 
+                  <hi>Hath the Lord a deſire that all men ſhould know his Will, that they might be ſaved?</hi>
+               </p>
+               <p>
+                  <label>A.</label> Yes.<note n="(c)" place="parend">1 <hi>Tim.</hi> 2.4.</note>
+               </p>
+               <p>
+                  <label>Q.</label> 
+                  <hi>What Arguments have you out of the</hi> Word <hi>for this?</hi>
+               </p>
+               <p>
+                  <label>A.</label> Theſe: 1. He declared his delight<note n="(d)" place="parend">
+                     <hi>Pro.</hi> 8.31.</note> is with the Sons of Men. 2. He ſwares he hath no pleaſure<note n="(e)" place="parend">
+                     <hi>Ezek.</hi> 33.11.</note> in the death of Sinners. 3. He made know<gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> his Will both by word and writing<note n="(f)" place="parend">
+                     <hi>Deut.</hi> 4.3. <hi>Joh.</hi> 20.3.</note> to inſtruct them. 4. He ſent his Prophets, and his Son, and his Apoſtles<note n="(g)" place="parend">2 <hi>Chro.</hi> 36.15. 2 <hi>Cor.</hi> 5.19, 20.</note> to perſwade Men to obey it. 5. He ſo loved them, he gave his Son<note n="(h)" place="parend">
+                     <hi>Joh.</hi> 3.16. <hi>Heb.</hi> 2.9.</note> to die for them. 6. He blames<note n="(i)" place="parend">
+                     <hi>Joh.</hi> 5.40.</note> Men for not coming unto him.</p>
+               <p>
+                  <label>Q.</label> 
+                  <hi>VVhat other Arguments?</hi>
+               </p>
+               <p>
+                  <label>A.</label> He promiſes thoſe that come to him<note n="(k)" place="parend">
+                     <hi>Joh.</hi> 6 37.</note> he will not caſt off. 8. He was grieved for<note n="(l)" place="parend">
+                     <hi>Luk.</hi> 19.41 42.</note> the deſtruction of Sinners. 9. He declares there is joy in.<note n="(m)" place="parend">
+                     <hi>Luk.</hi> 15.7.</note> Heaven at the converſion of Sinners. 10. He waits upon<note n="(n)" place="parend">
+                     <hi>Rom.</hi> 2.4. 2 <hi>Pet.</hi> 3.9.</note> Men with long-ſuffering for their Repentance.</p>
+            </div>
+            <trailer>FINIS.</trailer>
+            <pb facs="tcp:30625:9"/>
+         </div>
+      </body>
+   </text>
+</TEI>
